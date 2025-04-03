@@ -1,0 +1,16 @@
+2025-04-03 22:05:59 [ERROR]DB connection err: dial tcp: lookup db: no such host
+06: runtime.goexit@D:/Apps/src/runtime/asm_amd64.s:1700
+05: runtime.main@D:/Apps/src/runtime/proc.go:283
+04: main.main@D:/training_technical/tipjs/go/go-be-ttcs/src/main.go:56
+03: application/src/lib/db.Connect@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/db/db.go:23
+02: application/src/lib/error.WrapError@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/error/app_error.go:44
+01: application/src/lib/error.NewAppErrorWithStackTrace@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/error/app_error.go:32
+00: application/src/lib/error.StackTrace@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/error/trace.go:50(256)
+2025-04-03 22:12:47 [ERROR]DB connection err: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+06: runtime.goexit@D:/Apps/src/runtime/asm_amd64.s:1700
+05: runtime.main@D:/Apps/src/runtime/proc.go:283
+04: main.main@D:/training_technical/tipjs/go/go-be-ttcs/src/main.go:63
+03: application/src/lib/db.Connect@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/db/db.go:22
+02: application/src/lib/error.WrapError@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/error/app_error.go:44
+01: application/src/lib/error.NewAppErrorWithStackTrace@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/error/app_error.go:32
+00: application/src/lib/error.StackTrace@D:/training_technical/tipjs/go/go-be-ttcs/src/lib/error/trace.go:50(256)

@@ -3,7 +3,9 @@ package config
 const DbMain string = "main"
 const DbSub0 string = "sub0"
 
-func GetdbConnectionSettings() map[string]map[string]string {
+var DbDefault string = DbMain
+
+func GetDbConnectionSettings() map[string]map[string]string {
 	return map[string]map[string]string{
 		DbMain: {
 			"Host":          "db",
